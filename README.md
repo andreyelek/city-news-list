@@ -1,7 +1,7 @@
 # City news list 
 
-
-[Link to gh-pages](https://andreyelek.github.io/city-news-list)<br>
+[gh-pages](https://andreyelek.github.io/city-news-list)<br>
+	
 ## Available Scripts
 
 In the project directory, you can run:
