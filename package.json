@@ -1,9 +1,11 @@
 {
   "name": "city-news-list",
+  "homepage": "https://andreyelek.github.io/city-news-list",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "axios": "^0.17.1",
+    "gh-pages": "^1.1.0",
     "history": "^4.7.2",
     "kea-thunk": "^0.3.2",
     "react": "^16.2.0",
@@ -15,7 +17,9 @@
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build"
   },
   "devDependencies": {
     "antd": "^3.0.0",
