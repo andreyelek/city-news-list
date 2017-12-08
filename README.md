@@ -1,6 +1,4 @@
 # City news list 
-
-[gh-pages](https://andreyelek.github.io/city-news-list)<br>
 	
 ## Available Scripts
 
